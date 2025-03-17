@@ -3,7 +3,7 @@
 Um sistema simples e intuitivo para organizar seu amigo secreto de forma rápida e divertida!  
 
 ## 🚀 Teste Agora  
-🔗 [Acesse o projeto aqui](#) e faça seu sorteio em poucos cliques.  
+🔗 [Acesse o projeto aqui](#https://github.com/dantemrq/ChallengeONE-AmigoSecreto#) e faça seu sorteio em poucos cliques.  
 
 ## 📌 Funcionalidades  
 
@@ -26,7 +26,7 @@ Um sistema simples e intuitivo para organizar seu amigo secreto de forma rápida
 
 1. **Clone este repositório**  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/dantemrq/ChallengeONE-AmigoSecreto
    ```  
 2. **Abra o arquivo `index.html` no navegador**  
 3. **Divirta-se com seu sorteio de amigo secreto!**  
