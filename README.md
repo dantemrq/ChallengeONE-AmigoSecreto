@@ -3,7 +3,7 @@
 Um sistema simples e intuitivo para organizar seu amigo secreto de forma rápida e divertida!  
 
 ## 🚀 Teste Agora  
-🔗 [Acesse o projeto aqui](#https://github.com/dantemrq/ChallengeONE-AmigoSecreto#) e faça seu sorteio em poucos cliques.  
+🔗 [Acesse o projeto aqui](#) e faça seu sorteio em poucos cliques.  
 
 ## 📌 Funcionalidades  
 
