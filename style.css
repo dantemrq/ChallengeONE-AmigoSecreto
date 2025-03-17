@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6FFF8
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("assets/amigo-secreto.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #A4C3B2;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+#name {
+    color: #6B9080;
+    font-size: 18pt;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: #000 0 2px 5px;
+}
+
+#name:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18pt;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: #6B9080;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: #CCE3DE;
+}
+
+#sortButton {
+    background-color: #6B9080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18pt;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sortButton:hover {
+    background-color: #CCE3DE;
+}
+
+#resetButton:hover {
+    background-color: #dfdfdf;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18pt;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+#backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal {
+    width: 20%;
+    height: 200px;
+    background-color: #6B9080;
+    text-align: center;
+    display: none;
+}
+
+#modal h2 {
+    color: #6B9080;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    background-color: white;
+}
+
+#modal p {
+    font-size: 18pt;
+    color: white;  
+    text-align: center;
+}
+
+#closeButton:hover {
+    background-color: #dfdfdf;
+}
+
+#result {
+    font-weight: bold;
+}

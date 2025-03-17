@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Challenge ONE - Amigo Secreto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <div class="header">
+    </div>
+    <div class="container">
+        <div class="content">
+            <form onsubmit="addName(event)" >
+                <input type="text" id="name" placeholder="Digite um nome">
+                <button id="addButton" type="submit" class="button">Adicionar</button>
+                <button id="sortButton" type="button" class="button" onclick="sortName()">Sortear</button>
+                <button id="resetButton" type="button" class="button" onclick="resetList()">Limpar</button>
+            </form>
+            <ul id="nameList"></ul>
+        </div>
+    </div>
+    <div id="backdrop">
+        <div id="modal">
+            <h2 id="modalTitle"></h2>
+            <p id="modalMessage"></p>
+            <button id="closeButton" class="button" onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
